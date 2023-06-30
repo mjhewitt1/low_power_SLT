@@ -1,6 +1,6 @@
 # Low Power SLT
 
-## Low Power Computing for Speech ans Langauge Technologies
+## Low Power Computing for Speech and Langauge Technologies
 
 Collection of resources designed for those interested in this field of research. 
 
