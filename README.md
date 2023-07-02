@@ -39,6 +39,8 @@ These articles highlight the significance of low power and on-device computing i
 
 
 ## Publications
+
+### Review Papers
 Natural Language Processing (NLP) review papers: 
 -  "Energy-efficient natural language processing: A review" by Y. Guo et al. (2020)
 - "A survey on energy-efficient natural language processing" by S. Zhang et al. (2021)
@@ -52,6 +54,8 @@ Speech Processing review papers:
 -  "Low-power techniques for speech synthesis: A review" by H. Li et al. (2021)
 - "Energy-efficient techniques in speech processing: A comprehensive survey" by C. Zhang et al. (2021)
 
+
+### Speech processing
 Speech recognition methods
 - Low-power automatic speech recognition using dilated convolutional neural networks
 - Low-power deep learning for automatic speech recognition on embedded devices
@@ -59,10 +63,15 @@ Speech recognition methods
 - Energy-efficient dynamic pruning for recurrent neural network language models
 - Tian, H et al. (2022). Bioinspired dual-channel speech recognition using graphene-based electromyographic and mechanical sensors. Cell Reports Physical Science. https://doi.org/10.1016/j.xcrp.2022.101075
 
+Keyword spotting
+
+### Natural language processing
+
+
+### Related topics
+On-device inference
 
 On-device training
-
-Keyword spotting
 
 Federated learning
 
