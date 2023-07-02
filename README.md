@@ -170,10 +170,10 @@ Nvidia Jetson Nano
 Nvidia GPUs
 
 
-## Future plans & Feedback
-The repository aims to keep an up-to-date snapshot of recent and interesting works relating to low-power speech and language technologies, whilst also assisting with resources for getting started in this area. 
+## Future plans & feedback
+The repo aims to keep an up-to-date snapshot of recent and interesting works relating to low-power speech and language technologies, whilst also detailing resources for getting started in this area. 
 
-The repo is intended as a springboard to form a special interest group of people that are working on or interested in this growing field of research. While the repo will be maintained over time, it could be nice to share quartlerly updates and anouncements with the communty via a newsletter.
+The repo is intended as a springboard to form a special interest group of people that are working on or are interested in this field of research. While the repo will be maintained over time, it could be nice to share quartlerly updates and anouncements with the communty via a newsletter.
 
 Interested in a newsletter? [Sign up here](https://forms.gle/V83hQmvwHPsEELjr7)
 
@@ -182,5 +182,4 @@ Getting feedback from the community will be invaluable to the usefulness of this
 Have suggestions? [Give feedback here](https://forms.gle/WVfKC9YZ3kZhnZ4i9)
 
 Finally, if you know of anyone else interested in low-power SLTs please share this with them! :)
-
 
