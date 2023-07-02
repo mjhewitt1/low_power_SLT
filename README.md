@@ -1,4 +1,4 @@
-# Low Power SLT  -- UNDER CONSTRUCTION
+# Low Power SLT
 
 ## Low Power Computing for Speech and Language Technologies
 Collection of resources designed for those interested in low power computing for speech and language technologies, e.g. low-power, energy-efficient, on-device approaches to speech and language processing.
@@ -8,7 +8,7 @@ Keywords: low-power, energy-efficient, speech processing, natural language proce
 Related: on-device training, on-device inference, edge computing, federated learning, embedded systems, IoT, sustainability, open source, low cost, green computing, power efficiency, sustainable computing systems, tiny ml, private-by-design, language processing, speech synthesis, keyword spotting, natural language understanding, dialogue systems, language modelling, text processing
 
 
-## Motivation
+## Background and Motivation
 Research areas that aim to enhance the performance and capabilities of speech and language technologies that run on resource-constrained devices are attracting increasing attention. 
 
 The benefits of such methods are becoming increasingly important and include:
@@ -21,8 +21,15 @@ The benefits of such methods are becoming increasingly important and include:
 - scalability and flexibility
 
 
-## In the news
+## In the News
 These articles highlight the significance of low power and on-device computing in enabling efficient and privacy-preserving speech and language processing on mobile devices, edge devices, and IoT devices. They discuss the challenges, opportunities, and advancements in this field, motivating further research and development in energy-efficient algorithms, hardware optimizations, and edge AI technologies.
+
+General
+
+Privacy concerns
+
+Climate impact
+
 
 - "Why Edge Computing Is Crucial for the Future of AI and Speech Recognition" - Forbes
 - "The Rise of Edge AI: Powering Speech and Language Processing on Devices" - VentureBeat
@@ -63,7 +70,6 @@ Speech recognition methods
 - Energy-efficient dynamic pruning for recurrent neural network language models
 - Tian, H et al. (2022). Bioinspired dual-channel speech recognition using graphene-based electromyographic and mechanical sensors. Cell Reports Physical Science. https://doi.org/10.1016/j.xcrp.2022.101075
 
-Keyword spotting
 
 ### Natural language processing
 
@@ -77,8 +83,9 @@ Federated learning
 
 
 
-## Journals
+## Relevant Journals & Conferences
 
+### Journals
 - IEEE Transactions on Audio, Speech and Language Processing
 - IEEE Transactions on Signal processing
 - IEEE/ACM Transactions on Audio, Speech, and Language Processing
@@ -88,9 +95,7 @@ Federated learning
 - ACM Transactions on Intelligent Systems and Technology
 - Eurasip Journal on Audio, Speech, and Music Processing
 
-
-## Conferences
-
+### Conferences
 - Interspeech (Annunal Conference of the International Speech Communication Association)
 - IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)
 - IEEE Spoken Language Technology Workshop (SLT)
@@ -101,40 +106,41 @@ Federated learning
 - IEEE Interntational Conference on Multimedia and Expo (ICME)
 - IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU)
 
-
-Upcoming:
-
-
-
-## Challenges
-
+### Challenges
 - Interspeech Challenges
 - Dialog System Technology Challenges
 - Common Voice Data Set Challenges
 - Global Energy Forecasting Competition (GEFCom): While not specifically focused on speech processing, the GEFCom series challenges participants to develop accurate and energy-efficient forecasting models for energy consumption and production. These competitions often involve time series analysis and can be applicable to optimizing energy consumption in speech and language processing systems.
 - IEEE Signal Processing Cup: The IEEE Signal Processing Cup is an annual competition that challenges teams of undergraduate students to solve a specific signal processing problem. While the topics vary each year, some editions have focused on speech and audio processing, encouraging participants to develop efficient and low-power algorithms for speech-related tasks.
 
+### Upcoming
+A place to share upcoming special issues/workshops/conferences on low-power SLTs. 
+
 
 
 ## Software
 
-TensorFlow Lite for mobile and edge devices https://www.tensorflow.org/lite/
- - Gesture Recognition
- - Speech recognition (identify speech commands through keyword recognition)
- - Pose estimation (estimate pose of singe or multiple people)
- - Text classification (categorise free text into predefined groups)
- - Autocomplete (generate suggestions for text inputs using Keras language model)
- - On-device recommendation (provide personalised recommendations based on events)
- - Natural language question answering (answer questions based on a given passage of text with BERT)
- - Smart reply (generate reply suggestions to input conversational chat messages)
- - Audio classification 
- - Video classification (identify human actions)
- - Optical character recognition (OCR)
- - On-device training (train a TFLite model on-device)
+### For MCU devices
+[TensorFlow Lite for microcontrollers (TFMicro)](https://www.tensorflow.org/lite/microcontrollers)
+- 
+- [tflite-micro repo](https://github.com/tensorflow/tflite-micro/tree/main) has examples for recognising keywords (Speech Commands) and handwritten digits (MNIST), plus others.
 
-TensorFlow Lite for microcontrollers https://www.tensorflow.org/lite/microcontrollers
-- tflite-micro repo https://github.com/tensorflow/tflite-micro/tree/main has examples for recognising words (Speech Commands) and handwritten digits (MNIST)
+ Speech recognition on MCU devices:
+- Espressif ESP-SR
+- ESP Skainet
+- WakeNet
+- MultiNet
 
+Keyword Spotting systems
+- [Snowboy Hotword Detection](https://github.com/seasalt-ai/snowboy)
+
+The Espressif Audio Development Framework (ESP-ADF) is optimized for MCU devices that include: 
+
+
+### For CPU and GPU devices
+[TensorFlow Lite (TFLite)](https://www.tensorflow.org/lite/) for mobile and edge devices
+- 
+- Examples include: speech recognition, pose estimation, text classification, autocomplete text inputs, natural language question answering, smart reply chat suggestions, audio classification, and on-device training, plus more. 
 
 Speech recognition on CPU/GPU devices:
 - Vosk
@@ -148,46 +154,44 @@ Speech recognition on CPU/GPU devices:
 - SpeechBrain
 - Kaldi
 
+## Hardware platforms
+The following platforms are commonly used for training and inference in low-power SLT settings. 
 
- Speech recognition on MCU devices:
-- Espressif ESP-SR
-- ESP Skainet
-- WakeNet
-- MultiNet
+Microcontroller (MCU) devices typical of the IoT:
+- [Espressif](https://www.espressif.com/) ESP32
+- [Arduino](https://www.arduino.cc/) Uno
+
+CPU and GPU devices for handling more powerful tasks:
+- [Raspberry Pi](https://www.raspberrypi.org/) 3/4
+- [Nvidia Jetson](https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/) Nano
+- Plus GPUs from [Nvidia](https://www.nvidia.com/en-gb/), [AMD](https://www.amd.com/en.html)
 
 
-Locally-run assistants/dialogue:
+## Open Source Systems
+[Willow](https://github.com/toverainc/willow) & [Willow Inference Server (WIS)](https://github.com/toverainc/willow-inference-server)
+- Willow is
+- The Willow Inference Server is a local, self-hosted and highly optimized language inference server that supports ASR/STT, TTS, and LLM tasks across WebRTC, REST and WS.
+- The project attracted much attention to the Espressif ESP32-S3 Box that it uses for the user interface
+
+Rasa Open Source(https://github.com/RasaHQ/rasa)
+- A machine learning framework for building chat and voice-based AI assistants that make use of contextual information.
+- The platform allows for connecting to messaging channels and thirdy party systems through a set of APIs, so you can build contextual assistants on Facebook, Slack, Telegram.
+
+Rhasspy
 - Rhasspy (Mozilla DeepSpeech / Kaldi / PocketSphinx for STT) focuses on smart home applications
-- ESP-Skainet (offline voice assistant with wakeword engine and speech command recognition for up to 200 commands) https://github.com/espressif/esp-skainet (inc acoustic algs for speech enhancement, acoustic echo cancellation, voice activity detection, automatic gain control, noise suppression)
-- Willow uses Whisper ASR and supports LLAMA LLM running on a GPU https://github.com/toverainc/willow/tree/main/main
 
-
-Keyword Spotting systems
-- [Snowboy Hotword Detection](https://github.com/seasalt-ai/snowboy)
-- 
-
+[ESP-Skainet](https://github.com/espressif/esp-skainet)
+- An offline voice assistant with wakeword engine and speech command recognition for up to 200 commands.
+- The library includes acoustic algorithms for speech enhancement, acoustic echo cancellation, voice activity detection, automatic gain control, noise suppression.
 
 Federated Learning
 - [FedML-AI](https://github.com/FedML-AI/FedML) provides a research and production interated edge-cloud platform for federated ML
 
 
-## Hardware platforms
-The following platforms are commonly used for training and inference in low-power SLT settings. 
-
-Microcontroller (MCU) devices typical of the IoT:
-- [Espressif](https://www.espressif.com/) ESP32 e.g. the ESP32-S3 Box has attracted recent attention for audio processing applications
-- [Arduino](https://www.arduino.cc/) Uno
-
-CPU and GPU devices with more power:
-- [Raspberry Pi](https://www.raspberrypi.org/) 3/4
-- Nvidia Jetson Nano
-- Plus other GPUs from Nvidia, AMD and Tesla
-
-
 ## Future plans & feedback
-The repo aims to keep an up-to-date snapshot of recent and interesting works relating to low-power speech and language technologies, whilst also detailing resources for getting started in this area. 
+The aim is to maintain an up-to-date snapshot of recent and interesting works relating to low-power speech and language technologies, whilst also detailing resources for getting started in this area. 
 
-The repo is intended as a springboard to form a special interest group of people that are working on or are interested in this field of research. While the repo will be maintained over time, it could be nice to share quartlerly updates and anouncements with the communty via a newsletter.
+The repo is intended as a springboard to form a special interest group of those that are working on or interested in this field of research. While the repo will be maintained, it could be good to share quartlerly updates and anouncements with the communty via a newsletter.
 
 Interested in a newsletter? [Sign up here](https://forms.gle/V83hQmvwHPsEELjr7)
 
@@ -195,5 +199,5 @@ Getting feedback from the community will be invaluable to the usefulness of this
 
 Have suggestions? [Give feedback here](https://forms.gle/WVfKC9YZ3kZhnZ4i9)
 
-Finally, if you know of anyone else interested in low-power SLTs please share this with them! :)
+Finally, to help grow the community - if you know others interested in low-power SLTs, please share this with them!:)
 
