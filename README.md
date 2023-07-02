@@ -139,7 +139,7 @@ On-device training
 Federated learning
 
 
-## Relevant Journals & Conferences
+## Journals & Conferences
 
 ### Journals
 - IEEE Transactions on Audio, Speech and Language Processing
