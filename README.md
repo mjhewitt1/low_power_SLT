@@ -1,31 +1,27 @@
 # Low Power SLT  -- UNDER CONSTRUCTION
 
 ## Low Power Computing for Speech and Language Technologies
-
-Collection of resources designed for those interested in this field of research.
-e.g. low-power, energy-efficient, on-device approaches to speech and language processing, inc on-device training and on-device inference. 
+Collection of resources designed for those interested in low power computing for speech and language technologies, e.g. low-power, energy-efficient, on-device approaches to speech and language processing.
 
 Keywords: low-power, energy-efficient, speech processing, natural language processing
 
-Related: edge computing, embedded systems, sustainability, open source, low cost, green computing, IoT, power efficiency, sustainable computing systems, language processing, speech synthesis, natural language understanding, dialogue systems, tiny ml, private-by-design
+Related: on-device training, on-device inference, edge computing, federated learning, embedded systems, IoT, sustainability, open source, low cost, green computing, power efficiency, sustainable computing systems, tiny ml, private-by-design, language processing, speech synthesis, keyword spotting, natural language understanding, dialogue systems, language modelling, text processing
 
 
 ## Motivation
+Research that aims to enhance the performance and capabilities of speech and language technologies that run on resource-constrained devices is attracting increasing attention. 
 
-The focus is on research that aims to enhance the performance and capabilities of speech and language technologies that run on resource-constrained devices.
-
-The benefits include:
-- Privacy
-- Energy efficiency
-- Real-time processing
-- Reduced latency
-- Offline functionality
-- Edge intelligence
-- Scalability and flexibility
+The benefits of such methods are becoming increasingly important and include:
+- privacy
+- energy efficiency
+- real-time processing
+- reduced latency
+- offline functionality
+- edge intelligence
+- scalability and flexibility
 
 
 ## In the news
-
 These articles highlight the significance of low power and on-device computing in enabling efficient and privacy-preserving speech and language processing on mobile devices, edge devices, and IoT devices. They discuss the challenges, opportunities, and advancements in this field, motivating further research and development in energy-efficient algorithms, hardware optimizations, and edge AI technologies.
 
 - "Why Edge Computing Is Crucial for the Future of AI and Speech Recognition" - Forbes
@@ -43,16 +39,13 @@ These articles highlight the significance of low power and on-device computing i
 
 
 ## Publications
-
-Review papers
-
-NLP review: 
+Natural Language Processing (NLP) review papers: 
 -  "Energy-efficient natural language processing: A review" by Y. Guo et al. (2020)
 - "A survey on energy-efficient natural language processing" by S. Zhang et al. (2021)
 - "Energy-efficient natural language processing: A systematic review" by J. B. Lopes et al. (2021)
 -  "Energy-efficient techniques for natural language processing: A survey" by L. Zhou et al. (2021)
 
-Speech review:
+Speech Processing review papers: 
 - "Low-power hardware for automatic speech recognition: A review" by J. Chen et al. (2020)
 -  "Energy-efficient automatic speech recognition: A review" by Y. Wang et al. (2021)
 - "Energy-efficient techniques for automatic speech recognition: A survey" by X. Li et al. (2021)
@@ -134,7 +127,7 @@ TensorFlow Lite for microcontrollers https://www.tensorflow.org/lite/microcontro
 - tflite-micro repo https://github.com/tensorflow/tflite-micro/tree/main has examples for recognising words (Speech Commands) and handwritten digits (MNIST)
 
 
-On-device ASR for CPU/GPU:
+Speech recognition on CPU/GPU devices:
 - Vosk
 - Coqui
 - Whisper
@@ -147,20 +140,20 @@ On-device ASR for CPU/GPU:
 - Kaldi
 
 
-On-device ASR for MCU:
+ Speech recognition on MCU devices:
 - Espressif ESP-SR
 - ESP Skainet
 - WakeNet
 - MultiNet
 
 
-Efforts towards local smart home assistant:
-- Rhasspy (Mozilla DeepSpeech / Kaldi / PocketSphinx for STT)
-- HomeAssistant
+Locally-run assistants/dialogue:
+- Rhasspy (Mozilla DeepSpeech / Kaldi / PocketSphinx for STT) focuses on smart home applications
 - ESP-Skainet (offline voice assistant with wakeword engine and speech command recognition for up to 200 commands) https://github.com/espressif/esp-skainet (inc acoustic algs for speech enhancement, acoustic echo cancellation, voice activity detection, automatic gain control, noise suppression)
+- Willow uses Whisper ASR and supports LLAMA LLM running on a GPU https://github.com/toverainc/willow/tree/main/main
 
 
-Keyword Spotting
+Keyword Spotting systems
 - Snowboy Hotword Detection
 
 
@@ -172,6 +165,9 @@ Arduino
 
 Raspberry Pi
 
+Nvidia Jetson Nano
+
+Nvidia GPUs
 
 
 ## Future plans & Feedback
