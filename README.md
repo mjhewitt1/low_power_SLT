@@ -154,20 +154,25 @@ Locally-run assistants/dialogue:
 
 
 Keyword Spotting systems
-- Snowboy Hotword Detection
+- [Snowboy Hotword Detection](https://github.com/seasalt-ai/snowboy)
+- 
+
+
+Federated Learning
+- [FedML-AI](https://github.com/FedML-AI/FedML) provides a research and production interated edge-cloud platform for federated ML
 
 
 ## Hardware platforms
+The following platforms are commonly used for training and inference in low-power SLT settings. 
 
-Espressif
+Microcontroller (MCU) devices typical of the IoT:
+- [Espressif](https://www.espressif.com/) ESP32 e.g. the ESP32-S3 Box has attracted recent attention for audio processing applications
+- [Arduino](https://www.arduino.cc/) Uno
 
-Arduino
-
-Raspberry Pi
-
-Nvidia Jetson Nano
-
-Nvidia GPUs
+CPU and GPU devices with more power:
+- [Raspberry Pi](https://www.raspberrypi.org/) 3/4
+- Nvidia Jetson Nano
+- Plus other GPUs from Nvidia, AMD and Tesla
 
 
 ## Future plans & feedback
