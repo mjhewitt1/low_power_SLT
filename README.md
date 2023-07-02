@@ -9,7 +9,7 @@ Related: on-device training, on-device inference, edge computing, federated lear
 
 
 ## Motivation
-Research that aims to enhance the performance and capabilities of speech and language technologies that run on resource-constrained devices is attracting increasing attention. 
+Research areas that aim to enhance the performance and capabilities of speech and language technologies that run on resource-constrained devices are attracting increasing attention. 
 
 The benefits of such methods are becoming increasingly important and include:
 - privacy
