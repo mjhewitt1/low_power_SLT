@@ -121,34 +121,28 @@ Speech recognition on CPU/GPU devices:
 
 ## Research Publications <a name="research-publications"></a>
 ### Review Papers
-Natural Language Processing (NLP) review papers: 
--  "Energy-efficient natural language processing: A review" by Y. Guo et al. (2020)
-- "A survey on energy-efficient natural language processing" by S. Zhang et al. (2021)
-- "Energy-efficient natural language processing: A systematic review" by J. B. Lopes et al. (2021)
--  "Energy-efficient techniques for natural language processing: A survey" by L. Zhou et al. (2021)
-
-Speech Processing review papers: 
-- "Low-power hardware for automatic speech recognition: A review" by J. Chen et al. (2020)
--  "Energy-efficient automatic speech recognition: A review" by Y. Wang et al. (2021)
-- "Energy-efficient techniques for automatic speech recognition: A survey" by X. Li et al. (2021)
--  "Low-power techniques for speech synthesis: A review" by H. Li et al. (2021)
-- "Energy-efficient techniques in speech processing: A comprehensive survey" by C. Zhang et al. (2021)
+Review Papers: 
+- Schizas, Nikolaos, et al. "TinyML for Ultra-Low Power AI and Large Scale IoT Deployments: A Systematic Review." Future Internet 14.12 (2022): 363.
+- Han, Hui, and Julien Siebert. "TinyML: A systematic review and synthesis of existing research." 2022 International Conference on Artificial Intelligence in Information and Communication (ICAIIC). IEEE, 2022.
+- Treviso, Marcos, et al. "Efficient methods for natural language processing: A survey." arXiv preprint arXiv:2209.00099 (2022).
+- Hessenthaler, Marius, et al. "Bridging fairness and environmental sustainability in natural language processing." arXiv preprint arXiv:2211.04256 (2022).
 
 
 ### Speech processing
+- Wong, Alexander, et al. "Tinyspeech: Attention condensers for deep speech recognition neural networks on edge devices." arXiv preprint arXiv:2008.04245 (2020).
+- Li, Qin, et al. "MSP-MFCC: Energy-efficient MFCC feature extraction method with mixed-signal processing architecture for wearable speech recognition applications." IEEE Access 8 (2020): 48720-48730.
+- Tian, He, et al. "Bioinspired dual-channel speech recognition using graphene-based electromyographic and mechanical sensors." Cell Reports Physical Science 3.10 (2022).
 
 
 ### Natural language processing
+- Gundu, Krishna Sriharsha, et al. "Comparative Analysis of Energy Consumption in Text Processing Models." International Conference on Advancements in Smart Computing and Information Security. Cham: Springer Nature Switzerland, (2022).
 
 
 ### Related topics
-On-device inference
-
-On-device training
-
-Federated learning
-
-Edge AI
+- On-device inference
+- On-device training
+- Federated learning
+- Edge AI
 
 
 ## Journals & Conferences <a name="journals-and-conferences"></a>
@@ -179,7 +173,7 @@ Some challenges that consider low-power and on-device speech and language proces
 - Interspeech Challenges
 - Dialog System Technology Challenges
 - Common Voice Data Set Challenges
-- Global Energy Forecasting Competition (GEFCom): While not specifically focused on speech processing, the GEFCom series challenges participants to develop accurate and energy-efficient forecasting models for energy consumption and production. These competitions often involve time series analysis and can be applicable to optimizing energy consumption in speech and language processing systems.
+- Global Energy Forecasting Competition (GEFCom): While not specifically focused on speech processing, the GEFCom series challenges participants to develop accurate and energy-efficient forecasting models for energy consumption and production.
 - IEEE Signal Processing Cup: The IEEE Signal Processing Cup is an annual competition that challenges teams of undergraduate students to solve a specific signal processing problem. While the topics vary each year, some editions have focused on speech and audio processing, encouraging participants to develop efficient and low-power algorithms for speech-related tasks.
 
 ## Events & Announcements <a name="events-and-announcements"></a>
