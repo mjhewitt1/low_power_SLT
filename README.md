@@ -121,7 +121,6 @@ Speech recognition on CPU/GPU devices:
 
 ## Research Publications <a name="research-publications"></a>
 ### Review Papers
-Review Papers: 
 - Schizas, Nikolaos, et al. "TinyML for Ultra-Low Power AI and Large Scale IoT Deployments: A Systematic Review." Future Internet 14.12 (2022): 363.
 - Han, Hui, and Julien Siebert. "TinyML: A systematic review and synthesis of existing research." 2022 International Conference on Artificial Intelligence in Information and Communication (ICAIIC). IEEE, 2022.
 - Treviso, Marcos, et al. "Efficient methods for natural language processing: A survey." arXiv preprint arXiv:2209.00099 (2022).
