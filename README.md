@@ -31,7 +31,7 @@ The benefits of such methods are becoming increasingly important and include:
 - scalability and flexibility
 
 
-## In the News
+## In the News <a name="in-the-news"></a>
 These articles highlight the significance of low power and on-device computing in enabling efficient and privacy-preserving speech and language processing on mobile devices, edge devices, and IoT devices. They discuss the challenges, opportunities, and advancements in this field, motivating further research and development in energy-efficient algorithms, hardware optimizations, and edge AI technologies.
 
 - ['Data Centers: Climate Change Call to Action' (June, 2023)](https://formtek.com/blog/data-centers-climate-change-call-to-action/)
@@ -39,7 +39,7 @@ These articles highlight the significance of low power and on-device computing i
 - ['On-device speech processing makes Alexa faster, lower-bandwidth' (Jan, 2022)](https://www.amazon.science/blog/on-device-speech-processing-makes-alexa-faster-lower-bandwidth) 
 
 
-## Getting Started
+## Getting Started <a name="getting-started"></a>
 ### Hardware platforms
 The following hardware platforms commonly arise for processing, training and inference in low-power SLT settings and are useful to know about.
 
@@ -89,7 +89,7 @@ Speech recognition on CPU/GPU devices:
 - Kaldi
 
 
-## Open Source Systems
+## Open Source Systems <a name="open-source-systems"></a>
 [Willow](https://github.com/toverainc/willow) & [Willow Inference Server (WIS)](https://github.com/toverainc/willow-inference-server)
 - Willow is
 - The Willow Inference Server is a local, self-hosted and highly optimized language inference server that supports ASR/STT, TTS, and LLM tasks across WebRTC, REST and WS.
@@ -113,7 +113,7 @@ Speech recognition on CPU/GPU devices:
 [How to Run a ChatGPT-Like LLM on Your PC Offline](https://beebom.com/how-run-chatgpt-like-language-model-pc-offline/amp/)
 
 
-## Research Publications
+## Research Publications <a name="research-publications"></a>
 ### Review Papers
 Natural Language Processing (NLP) review papers: 
 -  "Energy-efficient natural language processing: A review" by Y. Guo et al. (2020)
@@ -145,7 +145,7 @@ Federated learning
 Edge AI
 
 
-## Journals & Conferences
+## Journals & Conferences <a name="journals-and-conferences"></a>
 
 ### Journals
 - IEEE Transactions on Audio, Speech and Language Processing
@@ -176,16 +176,16 @@ Some challenges that consider low-power and on-device speech and language proces
 - Global Energy Forecasting Competition (GEFCom): While not specifically focused on speech processing, the GEFCom series challenges participants to develop accurate and energy-efficient forecasting models for energy consumption and production. These competitions often involve time series analysis and can be applicable to optimizing energy consumption in speech and language processing systems.
 - IEEE Signal Processing Cup: The IEEE Signal Processing Cup is an annual competition that challenges teams of undergraduate students to solve a specific signal processing problem. While the topics vary each year, some editions have focused on speech and audio processing, encouraging participants to develop efficient and low-power algorithms for speech-related tasks.
 
-## Events & Announcements
+## Events & Announcements <a name="events-and-announcements"></a>
 A place to share upcoming special issues/workshops/conferences on low-power SLTs. 
 
 
-## Future plans & feedback
+## Future plans & feedback <a name="future-plans-and-feedback"></a>
 The aim is to maintain an up-to-date snapshot of recent and interesting works relating to low-power speech and language technologies, whilst also detailing resources for getting started in this area. 
 
 The repo is intended as a springboard to form a special interest group of those that are working on or interested in this field of research. While the repo will be maintained, it could be good to share quartlerly updates and anouncements with the communty via a newsletter.
 
-Interested in a newsletter? [Sign up here](https://forms.gle/V83hQmvwHPsEELjr7)
+Interested in a newsletter? [Sign up here]
 
 Getting feedback from the community will be invaluable to the usefulness of this repository an group moving forward. Please feel free to send suggestions for anything you think should be included, anything you are working on, or any other ideas you may have.
 
