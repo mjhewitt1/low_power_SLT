@@ -18,7 +18,7 @@ Table of Contents
 8. [Future Plans and Feedback](##future-plans-and-feedback)
 
 
-## Background and Motivation <a name='background-and-motivation"></a>
+## Background and Motivation <a name="background-and-motivation"></a>
 Research areas that aim to enhance the performance and capabilities of speech and language technologies that run on resource-constrained devices are attracting increasing attention. 
 
 The benefits of such methods are becoming increasingly important and include:
