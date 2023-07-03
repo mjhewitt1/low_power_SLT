@@ -5,7 +5,7 @@ Collection of resources designed for those interested in low power computing for
 
 Keywords: low-power, energy-efficient, speech processing, natural language processing
 
-Related: on-device training, on-device inference, edge computing, federated learning, embedded systems, mobile devices, IoT, sustainability, open source, low cost, green computing, power efficiency, sustainable computing systems, tiny ml, private-by-design, language processing, speech synthesis, keyword spotting, natural language understanding, dialogue systems, language modelling, text processing
+Related topics: on-device training, on-device inference, edge computing, federated learning, embedded systems, mobile devices, IoT, sustainability, open source, low cost, green computing, power efficiency, sustainable computing systems, tiny ml, private-by-design, language processing, speech synthesis, keyword spotting, natural language understanding, dialogue systems, language modelling, text processing
 
 Table of Contents
 1. [Background and Motvation](#background-and-motivation)
@@ -36,7 +36,18 @@ These articles highlight the significance of low power and on-device computing i
 
 - ['Data Centers: Climate Change Call to Action' (June, 2023)](https://formtek.com/blog/data-centers-climate-change-call-to-action/)
 - ['Collection of voice data for profit raises privacy fears' (Jan, 2023)](https://abcnews.go.com/Technology/collection-voice-data-profit-raises-privacy-fears/story?id=96363792)
-- ['On-device speech processing makes Alexa faster, lower-bandwidth' (Jan, 2022)](https://www.amazon.science/blog/on-device-speech-processing-makes-alexa-faster-lower-bandwidth) 
+- ['On-device speech processing makes Alexa faster, lower-bandwidth' (Jan, 2022)](https://www.amazon.science/blog/on-device-speech-processing-makes-alexa-faster-lower-bandwidth)
+- ['The Move Toward Green Machine Learning (Nov, 2022)](https://insidebigdata.com/2022/11/06/the-move-toward-green-machine-learning/)
+- ['Is there a More Environmentally Friendly Way to Train Artificial Intelligence' (March, 2021)](https://insidebigdata.com/2021/03/31/is-there-a-more-environmentally-friendly-way-to-train-artificial-intelligence/)
+- ['C is the Greenest Programming Language' (Nov, 2021)](https://hackaday.com/2021/11/18/c-is-the-greenest-programming-language/)
+- ['The Generative AI Race Has a Dirty Secret' (Feb, 2023)](https://www.wired.com/story/the-generative-ai-search-race-has-a-dirty-secret/)
+- ['AI and ML Think Green' (April, 2022)](https://www.forbes.com/sites/forbestechcouncil/2022/04/13/ai-and-ml-think-green/amp/)
+- ['No Room for Privacy Complacency in the Era of Cloud-Based AI' (June, 2023)](https://www.forbes.com/sites/forbestechcouncil/2023/06/23/no-room-for-privacy-complacency-in-the-era-of-cloud-based-ai/amp/)
+- ['Chat GPT's Electricity Consumption' (Mar, 2023)](https://towardsdatascience.com/chatgpts-electricity-consumption-7873483feac4)
+- ['Artificial Intelligence is Booming - so is its Carbon Footprint' (March, 2023)](https://www.bloomberg.com/news/articles/2023-03-09/how-much-energy-do-ai-and-chatgpt-use-no-one-knows-for-sure)
+- ['The Rise of Smart Speakers and Voice Could Boost Data Ceneters' (Feb, 2019)](https://www.datacenterfrontier.com/internet-of-things/article/11429739/the-rise-of-smart-speakers-and-voice-could-boost-data-centers)
+- ['The Climate Cost of the AI Revolution' (May, 2023)](https://labs.ripe.net/author/wim-vanderbauwhede/the-climate-cost-of-the-ai-revolution/)
+- ['Green Intelligence: Why Data and AI Must Become More Sustainable' (Mar, 2023)](https://www.forbes.com/sites/bernardmarr/2023/03/22/green-intelligence-why-data-and-ai-must-become-more-sustainable/amp/)
 
 
 ## Getting Started <a name="getting-started"></a>
