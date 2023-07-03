@@ -121,6 +121,7 @@ Speech recognition on CPU/GPU devices:
 
 ## Research Publications <a name="research-publications"></a>
 ### Review Papers
+- Xu, Jingjing, et al. "A survey on green deep learning." arXiv preprint arXiv:2111.05193 (2021).
 - Schizas, Nikolaos, et al. "TinyML for Ultra-Low Power AI and Large Scale IoT Deployments: A Systematic Review." Future Internet 14.12 (2022): 363.
 - Han, Hui, and Julien Siebert. "TinyML: A systematic review and synthesis of existing research." 2022 International Conference on Artificial Intelligence in Information and Communication (ICAIIC). IEEE, 2022.
 - Treviso, Marcos, et al. "Efficient methods for natural language processing: A survey." arXiv preprint arXiv:2209.00099 (2022).
@@ -131,21 +132,31 @@ Speech recognition on CPU/GPU devices:
 - Wong, Alexander, et al. "Tinyspeech: Attention condensers for deep speech recognition neural networks on edge devices." arXiv preprint arXiv:2008.04245 (2020).
 - Li, Qin, et al. "MSP-MFCC: Energy-efficient MFCC feature extraction method with mixed-signal processing architecture for wearable speech recognition applications." IEEE Access 8 (2020): 48720-48730.
 - Tian, He, et al. "Bioinspired dual-channel speech recognition using graphene-based electromyographic and mechanical sensors." Cell Reports Physical Science 3.10 (2022).
+- Tambe, Thierry, et al. "A 16-nm soc for noise-robust speech and nlp edge ai inference with bayesian sound source separation and attention-based dnns." IEEE Journal of Solid-State Circuits 58.2 (2022): 569-581.
+- Maayah, Marina, et al. "LimitAccess: on-device TinyML based robust speech recognition and age classification." Discover Artificial Intelligence 3.1 (2023): 8.
 
 
 ### Natural language processing
+- Tambe, Thierry, et al. "Edgebert: Sentence-level energy optimizations for latency-aware multi-task nlp inference." MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture. 2021.
 - Gundu, Krishna Sriharsha, et al. "Comparative Analysis of Energy Consumption in Text Processing Models." International Conference on Advancements in Smart Computing and Information Security. Cham: Springer Nature Switzerland, (2022).
+- Ge, Tao, Si-Qing Chen, and Furu Wei. "EdgeFormer: A parameter-efficient transformer for on-device Seq2Seq generation." arXiv preprint arXiv:2202.07959 (2022).
+- Moro, Gianluca, Luca Ragazzi, and Lorenzo Valgimigli. "Carburacy: summarization models tuning and comparison in eco-sustainable regimes with a novel carbon-aware accuracy." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 37. No. 12. 2023.
 
 
-### Related topics
-- On-device inference
-- On-device training
-- Federated learning
-- Edge AI
+### Related areas
+On-device training
+- Incel, Ozlem Durmaz, and Sevda Ozge Bursa. "On-Device Deep Learning for Mobile and Wearable Sensing Applications: A Review." IEEE Sensors Journal (2023).
 
+Federated learning
+- Liu, Ming, et al. "Federated learning meets natural language processing: A survey." arXiv preprint arXiv:2107.12603 (2021).
+
+IoT
+- Burrello, Alessio, et al. "A microcontroller is all you need: Enabling transformer execution on low-power iot endnodes." 2021 IEEE International Conference on Omni-Layer Intelligent Systems (COINS). IEEE, 2021.
+
+Model compression 
+- Mireshghallah, Fatemehsadat, et al. "Differentially private model compression." Advances in Neural Information Processing Systems 35 (2022): 29468-29483.
 
 ## Journals & Conferences <a name="journals-and-conferences"></a>
-
 ### Journals
 - IEEE Transactions on Audio, Speech and Language Processing
 - IEEE Transactions on Signal processing
