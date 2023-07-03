@@ -55,7 +55,7 @@ These articles highlight the significance of low power and on-device computing i
 The following hardware platforms commonly arise for processing, training and inference in low-power SLT settings and are useful to know about.
 
 | Type     | Examples | 
-| :---        | :---   |
+| :---        | :----   |
 | MCU    | [Espressif](https://www.espressif.com/) ESP32, [Arduino](https://www.arduino.cc/) Uno       | 
 | CPU   | [Raspberry Pi](https://www.raspberrypi.org/) 3/4 (CPU)       | 
 | CPU + GPU   | [Nvidia Jetson](https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/) Nano |
