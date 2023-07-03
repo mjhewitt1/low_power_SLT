@@ -9,13 +9,13 @@ Related: on-device training, on-device inference, edge computing, federated lear
 
 Table of Contents
 1. [Background and Motvation](#background-and-motivation)
-2. [In the News](##in-the-news)
-3. [Getting Started](##getting-started)
-4. [Open Source Systems](##open-source-systems)
-5. [Research Publications](##research-publications)
-6. [Journals and Conferences](##journals-and-conferences)
-7. [Events and Announcements](##events-and-announcements)
-8. [Future Plans and Feedback](##future-plans-and-feedback)
+2. [In the News](#in-the-news)
+3. [Getting Started](#getting-started)
+4. [Open Source Systems](#open-source-systems)
+5. [Research Publications](#research-publications)
+6. [Journals and Conferences](#journals-and-conferences)
+7. [Events and Announcements](#events-and-announcements)
+8. [Future Plans and Feedback](#future-plans-and-feedback)
 
 
 ## Background and Motivation <a name="background-and-motivation"></a>
