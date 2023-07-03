@@ -54,18 +54,13 @@ These articles highlight the significance of low power and on-device computing i
 ### Hardware platforms
 The following hardware platforms commonly arise for processing, training and inference in low-power SLT settings and are useful to know about.
 
-Microcontroller (MCU) devices typical of the IoT:
-- [Espressif](https://www.espressif.com/) ESP32
-- [Arduino](https://www.arduino.cc/) Uno
-
-CPU and GPU devices for handling more powerful tasks:
-- [Raspberry Pi](https://www.raspberrypi.org/) 3/4 (CPU)
-- [Nvidia Jetson](https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/) Nano (CPU+GPU)
-- [Nvidia](https://www.nvidia.com/en-gb/), [AMD](https://www.amd.com/en.html) provide many GPUs
-
-Coral AI Edge TPU: 
-- [Coral AI](https://coral.ai/products/) USB Accelerator ft. Edge TPU
-- Coral AI provided examples for this include a keyphrase detector and pose estimator, plus others. 
+| Type     | Examples | 
+| :---        |    :----:   |
+| MCU    | [Espressif](https://www.espressif.com/) ESP32, [Arduino](https://www.arduino.cc/) Uno       | 
+| CPU   | [Raspberry Pi](https://www.raspberrypi.org/) 3/4 (CPU)       | 
+| CPU + GPU   | [Nvidia Jetson](https://www.nvidia.com/en-gb/autonomous-machines/embedded-systems/) Nano |
+| GPUs  | [Nvidia](https://www.nvidia.com/en-gb/) provide many GPUs, e.g. RTX 3090 graphics card |
+| TPU   | [Coral AI](https://coral.ai/products/) USB Accelerator ft. Edge TPU |
 
 
 ### Software
