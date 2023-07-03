@@ -7,6 +7,15 @@ Keywords: low-power, energy-efficient, speech processing, natural language proce
 
 Related: on-device training, on-device inference, edge computing, federated learning, embedded systems, mobile devices, IoT, sustainability, open source, low cost, green computing, power efficiency, sustainable computing systems, tiny ml, private-by-design, language processing, speech synthesis, keyword spotting, natural language understanding, dialogue systems, language modelling, text processing
 
+Table of Contents
+1. [Background and Motvation](##background-and-motivation)
+2. [In the News](##in-the-news)
+3. [Getting Started](##getting-started)
+4. [Open Source Systems](##open-source-systems)
+5. [Research Publications](##research-publications)
+6. [Journals and Conferences](##journals-and-conferences)
+7. [Events and Announcements](##events-and-announcements)
+8. [Future Plans and Feedback](##future-plans-and-feedback)
 
 ## Background and Motivation
 Research areas that aim to enhance the performance and capabilities of speech and language technologies that run on resource-constrained devices are attracting increasing attention. 
@@ -98,6 +107,9 @@ Speech recognition on CPU/GPU devices:
 
 [FedML-AI](https://github.com/FedML-AI/FedML)
 - Provides a research and production interated edge-cloud platform for federated ML
+
+### Tutorials
+[How to Run a ChatGPT-Like LLM on Your PC Offline](https://beebom.com/how-run-chatgpt-like-language-model-pc-offline/amp/)
 
 
 ## Research Publications
