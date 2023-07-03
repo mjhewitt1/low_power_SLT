@@ -185,7 +185,7 @@ The aim is to maintain an up-to-date snapshot of recent and interesting works re
 
 The repo is intended as a springboard to form a special interest group of those that are working on or interested in this field of research. While the repo will be maintained, it could be good to share quartlerly updates and anouncements with the communty via a newsletter.
 
-Interested in a newsletter? [Sign up here]
+Interested in a newsletter? [Sign up here](https://forms.gle/WVfKC9YZ3kZhnZ4i9)
 
 Getting feedback from the community will be invaluable to the usefulness of this repository an group moving forward. Please feel free to send suggestions for anything you think should be included, anything you are working on, or any other ideas you may have.
 
