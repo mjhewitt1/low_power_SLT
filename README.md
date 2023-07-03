@@ -8,7 +8,7 @@ Keywords: low-power, energy-efficient, speech processing, natural language proce
 Related: on-device training, on-device inference, edge computing, federated learning, embedded systems, mobile devices, IoT, sustainability, open source, low cost, green computing, power efficiency, sustainable computing systems, tiny ml, private-by-design, language processing, speech synthesis, keyword spotting, natural language understanding, dialogue systems, language modelling, text processing
 
 Table of Contents
-1. [Background and Motvation](##background-and-motivation)
+1. [Background and Motvation](#background-and-motivation)
 2. [In the News](##in-the-news)
 3. [Getting Started](##getting-started)
 4. [Open Source Systems](##open-source-systems)
