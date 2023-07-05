@@ -11,7 +11,6 @@ Table of Contents
 1. [Background and Motvation](#background-and-motivation)
 2. [In the News](#in-the-news)
 3. [Getting Started](#getting-started)
-4. [Open Source Systems](#open-source-systems)
 5. [Research Publications](#research-publications)
 6. [Journals and Conferences](#journals-and-conferences)
 7. [Events and Announcements](#events-and-announcements)
@@ -65,9 +64,8 @@ The following hardware platforms commonly arise for processing, training and inf
 
 ### Software
 #### For MCU devices
- Speech processing on MCU devices:
-- [TensorFlow Lite for microcontrollers (TFMicro)](https://www.tensorflow.org/lite/microcontrollers)
-- The TensorFlow lite framework from Google provides a library for training and deploying machine learning (ML) models on microcontroller devices, like the ESP32. [Examples](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples) include:
+ Designed to run on MCU devices:
+- [TensorFlow Lite for microcontrollers (TFMicro)](https://www.tensorflow.org/lite/microcontrollers) framework supports training and deploying machine learning (ML) models on microcontroller devices, like the ESP32. [Examples](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples) include:
   - keyword spotting (Speech Commands dataset)
   - handwritten digit recognition (MNIST dataset).
 - [Espressif ESP-SR](https://github.com/espressif/esp-sr/tree/master) helps build speech applications for ESP32 and ESP32-S3 chips. Includes
@@ -85,28 +83,51 @@ The following hardware platforms commonly arise for processing, training and inf
   - Internet Radio
   - Voice recognition and integration with online services such as Alexa, DuerOS etc. 
 
+
 #### For CPU and GPU devices
 [TensorFlow Lite (TFLite)](https://www.tensorflow.org/lite/) for mobile and edge devices
 - Uses TensorFlow models converted into a smaller, more efficient ML format. Pre-trained models are available, and can be modified, or you can train your own TensorFlow models and convert them to TFLite format. 
 - Examples include speech recognition, pose estimation, text classification, autocomplete text inputs, natural language question answering, smart reply chat suggestions, audio classification, and on-device training, plus more.
 
-- [Snowboy Hotword Detection](https://github.com/seasalt-ai/snowboy) is a DNN based, customisable hotword and wake word detection toolkit that can run on a Raspberry Pi, and allows for training your own models
+[Snowboy Hotword Detection](https://github.com/seasalt-ai/snowboy) 
+- a DNN based, customisable hotword and wake word detection toolkit that can run on a Raspberry Pi, and allows for training your own models
+
+[Vosk](https://alphacephei.com/vosk/)
+  - Offline speech recognition API for Android, iOS, Raspberry Pi, and servers [(GitHub)](https://github.com/alphacep/vosk-api)
+  - Enables speech recognition for 20+ languages and dialects
+  - Small models (50Mb) that provide continuous large vocabulary transcription, zero-latency response with streaming API, a reconfigurable vocabulary and speaker identification
+  - Applications include chatbots, smart home applications, virtual assistants, lecture transcriptions, movie subtitles
+
+[Coqui](https://coqui.ai/)
+- Provides a library for Text-to-Speech (speech synthesis) with pretrained models [(TTS toolkit)](https://github.com/coqui-ai/TTS) (main focus)
+- Provides a library for Speech-to-Text (speech recognition) with pretrained models [(STT models)](https://github.com/coqui-ai/STT-models) (no longer maintained, shift towards Whisper)
+
+[Whisper](https://github.com/openai/whisper)
+- A general-purpose speech recognition model trained on a large dataset of audio
+- Multitasking model that can perform multilingual speech recognition, speech translation and language identification
+- Python and PyTorch used to train and test models of various sizes (tiny, based, small, medium, large)
+
+[Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech)
+- An open source, embedded speech-to-text engine (offline, on-device)
+- Runs real ime on devices ranging from a Raspberry Pi 4 to high power GPU servers
+- Based on the research paper 'Deep Speech: Scaling up end-to-end speech recognition' [(here)](https://arxiv.org/abs/1412.5567)
+
+[ESPNet](https://github.com/espnet/espnet)
+- End-to-end speech processing toolkit
+- Covers end-to-end speech recognition, text-to-speech, speech translation, speech enhancement, speaker diarization, spoken language understanding, etc.
+- Uses PyTorch as a deep learning engine, follows [Kaldi](http://kaldi-asr.org/) style data processing, feature extraction, and provides recipes for speech processing experiments
+
+[SpeechBrain](https://speechbrain.github.io/)
+- An open-source conversational AI toolkit, currently in beta
+- Aims to provide a single, flexible and user-friendly toolkit that can be used to easily develop state-of-the-art speech technologies
+- Includes systems for speech recognition, speaker recognition, speech enhancement, speech separation, language identification, multi-microphone signal processing, and more. 
+
+[Kaldi](http://kaldi-asr.org/)
+- Toolkit for speech recognition written in C++, widely used and intended for use by speech recognition researchers/professionals
+- Aims to provide modern, flexible code that is easy to modify and extend
 
 
-Speech recognition on CPU/GPU devices:
-- Vosk
-- Coqui
-- Whisper
-- Mozilla DeepSpeech
-- CMU PocketSphinx
-- Fairseq STT
-- ESPNet
-- Jasper (PocketSphinx / Julius for STT)
-- SpeechBrain
-- Kaldi
-
-
-## Open Source Systems <a name="open-source-systems"></a>
+### Further Open Source Systems
 [Willow](https://github.com/toverainc/willow) & [Willow Inference Server (WIS)](https://github.com/toverainc/willow-inference-server)
 - Willow is
 - The Willow Inference Server is a local, self-hosted and highly optimized language inference server that supports ASR/STT, TTS, and LLM tasks across WebRTC, REST and WS.
@@ -117,7 +138,12 @@ Speech recognition on CPU/GPU devices:
 - The platform allows for connecting to messaging channels and thirdy party systems through a set of APIs, so you can build contextual assistants on Facebook, Slack, Telegram.
 
 [Rhasspy](https://rhasspy.readthedocs.io/en/latest/)
-- Rhasspy (Mozilla DeepSpeech / Kaldi / PocketSphinx for STT) focuses on smart home applications
+- Rhasspy focuses on wakeword detection, speech recognition, and language understanding for smart home applications
+- Various options are available for the implementation of wake word detection, speech to text and intent recognition, etc.
+
+[Jasper](https://jasperproject.github.io/)
+- Open source platform supporting the development of always-on, voice-controlled applications
+- Uses [PocketSphinx](https://github.com/cmusphinx/pocketsphinx) or [Julius](https://github.com/julius-speech/julius) for STT. 
 
 [ESP-Skainet](https://github.com/espressif/esp-skainet)
 - An offline voice assistant with wakeword engine and speech command recognition for up to 200 commands.
@@ -167,6 +193,7 @@ IoT
 Model compression 
 - Mireshghallah, Fatemehsadat, et al. "Differentially private model compression." Advances in Neural Information Processing Systems 35 (2022): 29468-29483.
 
+
 ## Journals & Conferences <a name="journals-and-conferences"></a>
 ### Journals
 - IEEE Transactions on Audio, Speech and Language Processing
@@ -196,6 +223,7 @@ Some challenges that consider low-power and on-device speech and language proces
 - Common Voice Data Set Challenges
 - Global Energy Forecasting Competition (GEFCom): While not specifically focused on speech processing, the GEFCom series challenges participants to develop accurate and energy-efficient forecasting models for energy consumption and production.
 - IEEE Signal Processing Cup: The IEEE Signal Processing Cup is an annual competition that challenges teams of undergraduate students to solve a specific signal processing problem. While the topics vary each year, some editions have focused on speech and audio processing, encouraging participants to develop efficient and low-power algorithms for speech-related tasks.
+
 
 ## Events & Announcements <a name="events-and-announcements"></a>
 A place to share upcoming special issues/workshops/conferences on low-power SLTs. 
