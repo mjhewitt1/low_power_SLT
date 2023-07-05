@@ -65,27 +65,33 @@ The following hardware platforms commonly arise for processing, training and inf
 
 ### Software
 #### For MCU devices
-[TensorFlow Lite for microcontrollers (TFMicro)](https://www.tensorflow.org/lite/microcontrollers)
-- The TensorFlow lite framework from Google provides a library for training and deploying machine learning (ML) models on microcontroller devices, like the ESP32. 
-- [Examples](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples) include keyword spotting (Speech Commands dataset) and handwritten digit recognition (MNIST dataset).
-
  Speech processing on MCU devices:
+- [TensorFlow Lite for microcontrollers (TFMicro)](https://www.tensorflow.org/lite/microcontrollers)
+- The TensorFlow lite framework from Google provides a library for training and deploying machine learning (ML) models on microcontroller devices, like the ESP32. [Examples](https://github.com/tensorflow/tflite-micro/tree/main/tensorflow/lite/micro/examples) include:
+  - keyword spotting (Speech Commands dataset)
+  - handwritten digit recognition (MNIST dataset).
 - [Espressif ESP-SR](https://github.com/espressif/esp-sr/tree/master) helps build speech applications for ESP32 and ESP32-S3 chips. Includes
   - wakeword engine [(WakeNet)](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/wake_word_engine/README.html)
   - command recognition [(MultiNet)](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/speech_command_recognition/README.html)
   - an audio front-end [(AFE)](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/audio_front_end/README.html)
   - speech synthesis for Chinese. 
-- [Espressif ESP Skainet](https://github.com/espressif/esp-skainet) provides also intelligent voice assistant functionality for the ESP32-S3 chip, supporting [WakeNet](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/wake_word_engine/README.html) wakeword engine and [MultiNet](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/speech_command_recognition/README.html) command recognition. 
-- WakeNet
-- MultiNet
-- ESP-ADF
-- [Snowboy Hotword Detection](https://github.com/seasalt-ai/snowboy)
-
+- [Espressif ESP Skainet](https://github.com/espressif/esp-skainet) provides also intelligent voice assistant functionality for the ESP32-S3 chip, supporting:
+  - [WakeNet](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/wake_word_engine/README.html) wakeword engine
+  - [MultiNet](https://docs.espressif.com/projects/esp-sr/en/latest/esp32s3/speech_command_recognition/README.html) command recognition. 
+- [Espressif Audio Development Framework (ESP-ADF)](https://github.com/espressif/esp-adf) supports the development of audio applications for the Espressif SoCs, and supports feeatures like:
+  - Music player or recorder, supporting various audio formats
+  - Play music from various sources, including HTTP, SPIFFS, SDCARD
+  - Integrate media services, like DLNA, VoIP
+  - Internet Radio
+  - Voice recognition and integration with online services such as Alexa, DuerOS etc. 
 
 #### For CPU and GPU devices
 [TensorFlow Lite (TFLite)](https://www.tensorflow.org/lite/) for mobile and edge devices
 - Uses TensorFlow models converted into a smaller, more efficient ML format. Pre-trained models are available, and can be modified, or you can train your own TensorFlow models and convert them to TFLite format. 
-- Examples include speech recognition, pose estimation, text classification, autocomplete text inputs, natural language question answering, smart reply chat suggestions, audio classification, and on-device training, plus more. 
+- Examples include speech recognition, pose estimation, text classification, autocomplete text inputs, natural language question answering, smart reply chat suggestions, audio classification, and on-device training, plus more.
+
+- [Snowboy Hotword Detection](https://github.com/seasalt-ai/snowboy) is a DNN based, customisable hotword and wake word detection toolkit that can run on a Raspberry Pi, and allows for training your own models
+
 
 Speech recognition on CPU/GPU devices:
 - Vosk
