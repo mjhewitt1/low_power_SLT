@@ -218,11 +218,9 @@ Model compression
 
 ### Challenges
 Some challenges that consider low-power and on-device speech and language processing: 
-- Interspeech Challenges
-- Dialog System Technology Challenges
-- Common Voice Data Set Challenges
-- Global Energy Forecasting Competition (GEFCom): While not specifically focused on speech processing, the GEFCom series challenges participants to develop accurate and energy-efficient forecasting models for energy consumption and production.
-- IEEE Signal Processing Cup: The IEEE Signal Processing Cup is an annual competition that challenges teams of undergraduate students to solve a specific signal processing problem. While the topics vary each year, some editions have focused on speech and audio processing, encouraging participants to develop efficient and low-power algorithms for speech-related tasks.
+- Interspeech Challenges - [(see Interspeech 2023 challenges)](https://interspeech2023.org/special-sessions-challenges/)
+- Dialog System Technology Challenges - [(see the 11th chalenge)](https://dstc11.dstc.community/)
+- IEEE Signal Processing Cup: Annual competition that challenges teams of undergraduate students to solve a specific signal processing problem. While the topics vary each year, some editions have focused on speech and audio processing, encouraging participants to develop efficient and low-power algorithms for speech-related tasks. [(see the 2022 challenge)](https://signalprocessingsociety.org/community-involvement/ieee-signal-processing-cup-2022)
 
 
 ## Events & Announcements <a name="events-and-announcements"></a>
